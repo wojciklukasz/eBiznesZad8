@@ -47,4 +47,4 @@ jobs:
         app-name: 'eBiznesZad8'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_73b0d9afd89d428fb59e1019d03dbe26 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_31938680e642480d83467f1eb06dc723 }}/wojciklukasz/ebizneszad8:${{ github.sha }}'
+        images: 'hub.docker.com/r/${{ secrets.AzureAppService_ContainerUsername_31938680e642480d83467f1eb06dc723 }}/ebizneszad8:${{ github.sha }}'
