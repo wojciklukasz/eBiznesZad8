@@ -1,4 +1,4 @@
-# eBiznes Zad 9
+# eBiznes Zad 8
 
 Githubowa akcja tworzy kontener Dockerowy, uploaduje go na Docker Hub, a następnie wdraża na Azure.
 
